@@ -1,0 +1,404 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+        
+        body {
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            padding-inline: 20px;
+        }
+        /*header*/
+        
+        header {
+            padding-top: 30px;
+            padding-bottom: 25px;
+            background: #35424a;
+            color: #ffffff;
+            border-bottom: 3px solid #E8491D;
+        }
+        
+        .wraper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .eyh {
+            font-size: 30px;
+        }
+        
+        span {
+            color: #E8491D;
+        }
+        
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        li,
+        a {
+            text-decoration: none;
+            list-style-type: none;
+            padding-inline: 10px;
+            color: #dfd3d3e6;
+            font-weight: 600;
+        }
+        
+        a:hover {
+            color: rgb(255, 255, 255);
+        }
+        
+        .first {
+            color: #E8491D;
+        }
+        
+        #showcase {
+            min-height: 400px;
+            background-image: url(https://floggingsails.com/images/showcase.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+        }
+        
+        .wrapered {
+            padding-block: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .abayelan {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .yelans {
+            font-size: 55px;
+            padding-bottom: 20px;
+        }
+        
+        .hola {
+            font-size: 20px;
+        }
+        
+        #newsletter {
+            min-height: 90px;
+            background: #35424a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .axe {
+            color: #f4f4f4;
+            font-size: 22px;
+        }
+        
+        form {
+            width: auto;
+        }
+        
+        input {
+            width: 250px;
+            height: 35px;
+            padding: 9px 5px;
+        }
+        
+        .btn-1 {
+            height: 35px;
+            background: #E8491D;
+            color: #f4f4f4;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        
+        #boxes {
+            min-height: 300px;
+            padding-block: 20px;
+        }
+        
+        .box-wraper {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .box {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        img {
+            height: 90px;
+            align-self: center;
+            margin-bottom: 12px;
+        }
+        
+        .pbox {
+            font-size: 18px;
+        }
+        
+        .parbox {
+            font-size: 16px;
+            margin-block: 1em;
+        }
+        
+        .containerr {
+            max-width: 1200px;
+            margin: auto;
+            padding-block: 15px;
+        }
+        
+        .about-wraper {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .trax {
+            width: auto;
+            padding: 30px;
+        }
+        
+        .services-yeah {
+            margin-inline: 5px;
+            width: auto;
+        }
+        
+        .trax2 {
+            width: 350px;
+            margin-block: 25px;
+            padding: 10px 15px;
+            background: #35424a;
+            height: 220px;
+            color: white;
+            width: auto;
+        }
+        
+        .trax {
+            text-align: center;
+        }
+        
+        .weDo {
+            padding-bottom: 10px;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        
+        .paragraph {
+            font-size: 15px;
+        }
+        
+        .service-article {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            padding-block: 30px;
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            margin-block-start: 5px;
+            margin-block-end: 5px;
+            background-color: #c3bfbf71;
+            font-size: 15px;
+        }
+        
+        .price {
+            margin-block: 10px;
+        }
+        
+        .us {
+            padding-block: 5px;
+        }
+        
+        .sentence1 {
+            padding-block: 10px;
+            font-size: 15px;
+        }
+        
+        .haha {
+            padding: 15px;
+            background: #35424a;
+            color: white;
+        }
+        
+        .form-services-parent {
+            height: 45%;
+            width: 350px;
+            padding: 20px;
+            background-color: #35424a;
+            color: white;
+        }
+        
+        .quote {
+            padding-block: 10px;
+        }
+        
+        .sevices-input {
+            max-width: 500px;
+            width: 100%;
+            height: 30px;
+            padding: 9px 5px;
+        }
+        
+        textarea {
+            height: 44px;
+            padding: 9px 5px;
+            width: 300px;
+            width: 100%;
+        }
+        
+        .btn-services {
+            padding: 10px;
+            color: white;
+            background: #E8491D;
+            border: none;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #E8491D;
+            min-height: 90px;
+        }
+        
+        .poter {
+            color: white;
+            font-size: 15px;
+        }
+        /* Media Queries */
+        
+        @media(max-width: 768px) {
+            header,
+            #showcase,
+            #newsletter {
+                padding-inline: 20px;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .wraper {
+                display: grid;
+                grid-template-rows: repeat(2, 1fr);
+            }
+            .about-wraper {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                display: block;
+                align-items: center;
+                margin: auto;
+            }
+            .trax2 {
+                text-align: center;
+                padding: 10px 15px;
+                background: #35424a;
+                height: auto;
+                color: white;
+            }
+            .services-yeah {
+                margin: 20px;
+            }
+            .services-forms {
+                text-align: center;
+                max-width: 350px;
+                width: 100%;
+            }
+            .form-services-parent {
+                width: auto;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        
+        @media(max-width:480px) {
+            .container {
+                text-align: center;
+            }
+            .container {
+                font-size: 18px;
+            }
+            .yelans {
+                font-size: 26px;
+            }
+            nav,
+            .pbox,
+            .parbox,
+            .hola {
+                font-size: 15px;
+            }
+            .img {
+                height: 70px;
+            }
+            .eyh {
+                margin: auto;
+                font-size: 25px;
+            }
+            .box-wraper {
+                display: grid;
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+            .media-wraper {
+                text-align: center;
+            }
+            .btn-1 {
+                margin-block: 10px;
+            }
+            .service-article {
+                text-align: center;
+            }
+            #newsletter {
+                padding: 10px;
+            }
+        }
+        
+        @media(max-width:320px) {
+            .box-wraper {
+                display: grid;
+            }
+            .pbox {
+                font-size: 15px;
+            }
+            .parbox {
+                font-size: 12px;
+            }
+            .eyh {
+                font-size: 23px;
+                text-align: center;
+            }
+            ul {
+                text-align: center;
+                font-size: 12px;
+            }
+            .yelans {
+                font-size: 23px;
+            }
+            .hola {
+                font-size: 12px;
+            }
+            form {
+                width: auto;
+            }
+        }
