@@ -22,7 +22,7 @@
         header {
             padding-top: 30px;
             padding-bottom: 25px;
-            background: red;
+            background: #35424a;
             color: #ffffff;
             border-bottom: 3px solid #E8491D;
         }
@@ -329,6 +329,9 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+            }
+            .yelans {
+                font-size: 40px;
             }
         }
         
